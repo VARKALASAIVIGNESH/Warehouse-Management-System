@@ -1,0 +1,13 @@
+# Handle line endings automatically
+* text=auto
+
+# Keep line endings consistent
+*.py text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+
+# Ignore venv and binary files
+venv/ binary
+*.exe binary
+*.dll binary
