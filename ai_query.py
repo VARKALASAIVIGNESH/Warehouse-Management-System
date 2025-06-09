@@ -4,7 +4,7 @@ import pandas as pd
 import re
 
 # Set your Together.ai API key
-API_KEY = os.getenv("TOGETHER_API_KEY", "249f7cd0b37db86a677c420a649155c316bb4d5c1d4111ea8d47f698251f3a98")
+API_KEY = os.getenv("TOGETHER_API_KEY", "enter api key from together ai")
 API_URL = "https://api.together.xyz/v1/chat/completions"
 MODEL = "meta-llama/Llama-3-8b-chat-hf"
 
